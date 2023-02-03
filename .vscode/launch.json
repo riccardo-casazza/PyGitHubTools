@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--source_repo", "Shopify/db-migrations", "--included_labels", "monitoring", "shop-mover", "--excluded_labels", "DBLT", "--issue_id", "302", "--destination_repo", "Shopify/db-migrations", "--github_access_token", "##########"]
+        }
+    ]
+}

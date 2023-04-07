@@ -46,7 +46,7 @@ repo_names = args.source_repos
 
 
 for repo_name in repo_names:
-    print("Repo" + repo_name)
+    print("Repo " + repo_name)
     repo = g.get_repo(repo_name)
     dblt_issues = repo.get_issues(labels=["DBLT"])
 
